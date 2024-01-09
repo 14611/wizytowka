@@ -1,0 +1,110 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+}
+header 
+{
+    background-color: #e6f2ff;
+    position: fixed;
+    width: 98.9%;
+    padding: 10px;
+    border-radius: 0px 0px 35px 35px;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(84, 84, 84, 1);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(84, 84, 84, 1);
+    box-shadow: 0px 2px 6px 0px rgba(84, 84, 84, 1);
+}
+/*Nawigacja*/
+nav 
+{
+    float: left;
+    width: 20%;
+    background-color: #bebebe;
+    padding-top: 100px;
+    text-align: center;
+    min-height: 1000px;
+}
+ul
+{
+    list-style: none;
+}
+li.nav
+{
+    margin: 5px;
+}
+a 
+{
+    color: black;
+    font-size: 18pt;
+    transition: 0.3s;
+    text-decoration: none;
+    width: 100%;
+}
+a:hover
+{
+    font-weight: bold;
+}
+/*Strona główna*/
+main 
+{
+    float: right;
+    width: 80%;
+    background-color: #ecf0f1;
+    color: #333333;
+    text-align: center;
+    min-height: 100vh;
+    padding-top: 10%;
+}
+footer 
+{
+    background-color: #c1c1c1;
+    text-align: center;
+    clear: both;
+    height: 10%;
+}
+/*Znaczniki bez segregacji*/
+p
+{
+    font-size: 16pt;
+}
+img
+{
+    width: 400px;
+}
+div.d
+{
+    text-align: left;
+    font-size: 16pt;
+    float: center;
+}
+/* Styl elementów listy */
+.expandable-list
+{
+    list-style: none;
+}
+.expandable-list-item 
+{
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+/* Styl rozwiniętych elementów listy */
+.expandable-list-item.expanded 
+{
+    list-style: none;
+}
+
+/* Styl ukrytych podpunktów listy */
+.expandable-list-subitems 
+{
+    display: none;
+    list-style: none;
+}
+
+/* Styl widocznych podpunktów listy */
+.expandable-list-item.expanded .expandable-list-subitems 
+{
+    display: block;
+    list-style: none;
+}
